@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340629131D26873C008AEAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340629121D26873C008AEAF9 /* AppDelegate.swift */; };
+		340629151D26873C008AEAF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340629141D26873C008AEAF9 /* ViewController.swift */; };
+		3406291A1D26873C008AEAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340629191D26873C008AEAF9 /* Assets.xcassets */; };
+		3406291D1D26873C008AEAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3406291B1D26873C008AEAF9 /* LaunchScreen.storyboard */; };
+		340629281D26873C008AEAF9 /* PencilAnnotatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340629271D26873C008AEAF9 /* PencilAnnotatorTests.swift */; };
+		340629331D26873D008AEAF9 /* PencilAnnotatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340629321D26873D008AEAF9 /* PencilAnnotatorUITests.swift */; };
+		340629411D26995B008AEAF9 /* ReticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340629401D26995B008AEAF9 /* ReticleView.swift */; };
+		340629431D2699C5008AEAF9 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340629421D2699C5008AEAF9 /* CanvasView.swift */; };
+		340629451D34B631008AEAF9 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340629441D34B631008AEAF9 /* Line.swift */; };
+		340629481D34BCDE008AEAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340629471D34BCDE008AEAF9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		340629241D26873C008AEAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340629071D26873C008AEAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3406290E1D26873C008AEAF9;
+			remoteInfo = PencilAnnotator;
+		};
+		3406292F1D26873C008AEAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340629071D26873C008AEAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3406290E1D26873C008AEAF9;
+			remoteInfo = PencilAnnotator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3406290F1D26873C008AEAF9 /* PencilAnnotator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilAnnotator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340629121D26873C008AEAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		340629141D26873C008AEAF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		340629191D26873C008AEAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3406291C1D26873C008AEAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3406291E1D26873C008AEAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340629231D26873C008AEAF9 /* PencilAnnotatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilAnnotatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		340629271D26873C008AEAF9 /* PencilAnnotatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilAnnotatorTests.swift; sourceTree = "<group>"; };
+		340629291D26873C008AEAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3406292E1D26873C008AEAF9 /* PencilAnnotatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilAnnotatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		340629321D26873D008AEAF9 /* PencilAnnotatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilAnnotatorUITests.swift; sourceTree = "<group>"; };
+		340629341D26873D008AEAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340629401D26995B008AEAF9 /* ReticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReticleView.swift; sourceTree = "<group>"; };
+		340629421D2699C5008AEAF9 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		340629441D34B631008AEAF9 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		340629461D34BCDE008AEAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3406290C1D26873C008AEAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340629201D26873C008AEAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3406292B1D26873C008AEAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340629061D26873C008AEAF9 = {
+			isa = PBXGroup;
+			children = (
+				340629111D26873C008AEAF9 /* PencilAnnotator */,
+				340629261D26873C008AEAF9 /* PencilAnnotatorTests */,
+				340629311D26873C008AEAF9 /* PencilAnnotatorUITests */,
+				340629101D26873C008AEAF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		340629101D26873C008AEAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3406290F1D26873C008AEAF9 /* PencilAnnotator.app */,
+				340629231D26873C008AEAF9 /* PencilAnnotatorTests.xctest */,
+				3406292E1D26873C008AEAF9 /* PencilAnnotatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		340629111D26873C008AEAF9 /* PencilAnnotator */ = {
+			isa = PBXGroup;
+			children = (
+				340629121D26873C008AEAF9 /* AppDelegate.swift */,
+				340629141D26873C008AEAF9 /* ViewController.swift */,
+				340629421D2699C5008AEAF9 /* CanvasView.swift */,
+				340629401D26995B008AEAF9 /* ReticleView.swift */,
+				340629441D34B631008AEAF9 /* Line.swift */,
+				340629191D26873C008AEAF9 /* Assets.xcassets */,
+				340629471D34BCDE008AEAF9 /* Main.storyboard */,
+				3406291B1D26873C008AEAF9 /* LaunchScreen.storyboard */,
+				3406291E1D26873C008AEAF9 /* Info.plist */,
+			);
+			path = PencilAnnotator;
+			sourceTree = "<group>";
+		};
+		340629261D26873C008AEAF9 /* PencilAnnotatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				340629271D26873C008AEAF9 /* PencilAnnotatorTests.swift */,
+				340629291D26873C008AEAF9 /* Info.plist */,
+			);
+			path = PencilAnnotatorTests;
+			sourceTree = "<group>";
+		};
+		340629311D26873C008AEAF9 /* PencilAnnotatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				340629321D26873D008AEAF9 /* PencilAnnotatorUITests.swift */,
+				340629341D26873D008AEAF9 /* Info.plist */,
+			);
+			path = PencilAnnotatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3406290E1D26873C008AEAF9 /* PencilAnnotator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340629371D26873D008AEAF9 /* Build configuration list for PBXNativeTarget "PencilAnnotator" */;
+			buildPhases = (
+				3406290B1D26873C008AEAF9 /* Sources */,
+				3406290C1D26873C008AEAF9 /* Frameworks */,
+				3406290D1D26873C008AEAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PencilAnnotator;
+			productName = PencilAnnotator;
+			productReference = 3406290F1D26873C008AEAF9 /* PencilAnnotator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		340629221D26873C008AEAF9 /* PencilAnnotatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3406293A1D26873D008AEAF9 /* Build configuration list for PBXNativeTarget "PencilAnnotatorTests" */;
+			buildPhases = (
+				3406291F1D26873C008AEAF9 /* Sources */,
+				340629201D26873C008AEAF9 /* Frameworks */,
+				340629211D26873C008AEAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340629251D26873C008AEAF9 /* PBXTargetDependency */,
+			);
+			name = PencilAnnotatorTests;
+			productName = PencilAnnotatorTests;
+			productReference = 340629231D26873C008AEAF9 /* PencilAnnotatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3406292D1D26873C008AEAF9 /* PencilAnnotatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3406293D1D26873D008AEAF9 /* Build configuration list for PBXNativeTarget "PencilAnnotatorUITests" */;
+			buildPhases = (
+				3406292A1D26873C008AEAF9 /* Sources */,
+				3406292B1D26873C008AEAF9 /* Frameworks */,
+				3406292C1D26873C008AEAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340629301D26873C008AEAF9 /* PBXTargetDependency */,
+			);
+			name = PencilAnnotatorUITests;
+			productName = PencilAnnotatorUITests;
+			productReference = 3406292E1D26873C008AEAF9 /* PencilAnnotatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		340629071D26873C008AEAF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Zhang";
+				TargetAttributes = {
+					3406290E1D26873C008AEAF9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y6A8S5B48V;
+					};
+					340629221D26873C008AEAF9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3406290E1D26873C008AEAF9;
+					};
+					3406292D1D26873C008AEAF9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3406290E1D26873C008AEAF9;
+					};
+				};
+			};
+			buildConfigurationList = 3406290A1D26873C008AEAF9 /* Build configuration list for PBXProject "PencilAnnotator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 340629061D26873C008AEAF9;
+			productRefGroup = 340629101D26873C008AEAF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3406290E1D26873C008AEAF9 /* PencilAnnotator */,
+				340629221D26873C008AEAF9 /* PencilAnnotatorTests */,
+				3406292D1D26873C008AEAF9 /* PencilAnnotatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3406290D1D26873C008AEAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340629481D34BCDE008AEAF9 /* Main.storyboard in Resources */,
+				3406291D1D26873C008AEAF9 /* LaunchScreen.storyboard in Resources */,
+				3406291A1D26873C008AEAF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340629211D26873C008AEAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3406292C1D26873C008AEAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3406290B1D26873C008AEAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340629151D26873C008AEAF9 /* ViewController.swift in Sources */,
+				340629411D26995B008AEAF9 /* ReticleView.swift in Sources */,
+				340629431D2699C5008AEAF9 /* CanvasView.swift in Sources */,
+				340629131D26873C008AEAF9 /* AppDelegate.swift in Sources */,
+				340629451D34B631008AEAF9 /* Line.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3406291F1D26873C008AEAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340629281D26873C008AEAF9 /* PencilAnnotatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3406292A1D26873C008AEAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340629331D26873D008AEAF9 /* PencilAnnotatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		340629251D26873C008AEAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3406290E1D26873C008AEAF9 /* PencilAnnotator */;
+			targetProxy = 340629241D26873C008AEAF9 /* PBXContainerItemProxy */;
+		};
+		340629301D26873C008AEAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3406290E1D26873C008AEAF9 /* PencilAnnotator */;
+			targetProxy = 3406292F1D26873C008AEAF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3406291B1D26873C008AEAF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3406291C1D26873C008AEAF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		340629471D34BCDE008AEAF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340629461D34BCDE008AEAF9 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../../TouchCanvasUsingUITouchefficientlyandeffectively/TouchCanvas;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		340629351D26873D008AEAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		340629361D26873D008AEAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		340629381D26873D008AEAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PencilAnnotator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PencilAnnotator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		340629391D26873D008AEAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PencilAnnotator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PencilAnnotator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3406293B1D26873D008AEAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PencilAnnotatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PencilAnnotatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PencilAnnotator.app/PencilAnnotator";
+			};
+			name = Debug;
+		};
+		3406293C1D26873D008AEAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PencilAnnotatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PencilAnnotatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PencilAnnotator.app/PencilAnnotator";
+			};
+			name = Release;
+		};
+		3406293E1D26873D008AEAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PencilAnnotatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PencilAnnotatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PencilAnnotator;
+			};
+			name = Debug;
+		};
+		3406293F1D26873D008AEAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PencilAnnotatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.PencilAnnotatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PencilAnnotator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3406290A1D26873C008AEAF9 /* Build configuration list for PBXProject "PencilAnnotator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340629351D26873D008AEAF9 /* Debug */,
+				340629361D26873D008AEAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340629371D26873D008AEAF9 /* Build configuration list for PBXNativeTarget "PencilAnnotator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340629381D26873D008AEAF9 /* Debug */,
+				340629391D26873D008AEAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3406293A1D26873D008AEAF9 /* Build configuration list for PBXNativeTarget "PencilAnnotatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3406293B1D26873D008AEAF9 /* Debug */,
+				3406293C1D26873D008AEAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3406293D1D26873D008AEAF9 /* Build configuration list for PBXNativeTarget "PencilAnnotatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3406293E1D26873D008AEAF9 /* Debug */,
+				3406293F1D26873D008AEAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 340629071D26873C008AEAF9 /* Project object */;
+}
